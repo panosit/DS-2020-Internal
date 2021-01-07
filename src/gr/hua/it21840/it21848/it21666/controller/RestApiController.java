@@ -1,5 +1,6 @@
 package gr.hua.it21840.it21848.it21666.controller;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import gr.hua.it21840.it21848.it21666.dao.ApplicationDAO;
@@ -16,6 +17,7 @@ public class RestApiController{
     public List<Application> getApplicationsByLastName(@PathVariable String lastname){
         return applicationDAO.getApplicationsByParentLastName(lastname);
     }
+    @Secured("ROLE_MANAGER")
     @GetMapping("/applications")
     public List<Application> getApplications(){
         return applicationDAO.getApplications();
@@ -26,6 +28,7 @@ public class RestApiController{
         return application;
     }
     
+    @Secured("ROLE_MANAGER")
     @DeleteMapping("/applications/{applicationId}")
     public String deleteCustomer(@PathVariable int applicationId){
         applicationDAO.deleteApplication(applicationId);
