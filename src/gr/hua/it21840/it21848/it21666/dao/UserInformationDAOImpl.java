@@ -1,4 +1,4 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 
 import javax.transaction.Transactional;
 
@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import gr.hua.it21840.entity.UserInformation;
+import gr.hua.it21840.it21848.it21666.entity.UserInformation;
 
 
 @Repository

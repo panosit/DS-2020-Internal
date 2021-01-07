@@ -1,4 +1,4 @@
-package gr.hua.it21840.entity;
+package gr.hua.it21840.it21848.it21666.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

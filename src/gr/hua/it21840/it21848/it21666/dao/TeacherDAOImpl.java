@@ -1,4 +1,4 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import gr.hua.it21840.entity.Teacher;
+import gr.hua.it21840.it21848.it21666.entity.Teacher;
 
 @Repository
 public class TeacherDAOImpl implements TeacherDAO{

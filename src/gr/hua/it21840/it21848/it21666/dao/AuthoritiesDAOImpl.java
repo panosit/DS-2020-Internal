@@ -1,7 +1,7 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 import org.springframework.stereotype.*;
 
-import gr.hua.it21840.entity.Authorities;
+import gr.hua.it21840.it21848.it21666.entity.Authorities;
 
 import java.util.*;
 import javax.transaction.*;

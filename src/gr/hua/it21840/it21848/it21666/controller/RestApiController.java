@@ -1,9 +1,9 @@
-package gr.hua.it21840.controller;
+package gr.hua.it21840.it21848.it21666.controller;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
 
-import gr.hua.it21840.dao.ApplicationDAO;
-import gr.hua.it21840.entity.Application;
+import gr.hua.it21840.it21848.it21666.dao.ApplicationDAO;
+import gr.hua.it21840.it21848.it21666.entity.Application;
 
 import java.util.*;
 

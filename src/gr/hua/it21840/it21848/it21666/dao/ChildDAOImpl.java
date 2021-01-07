@@ -1,8 +1,8 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.*;
 
-import gr.hua.it21840.entity.Child;
+import gr.hua.it21840.it21848.it21666.entity.Child;
 
 import javax.transaction.*;
 import org.hibernate.*;

@@ -1,4 +1,4 @@
-package gr.hua.it21840.controller;
+package gr.hua.it21840.it21848.it21666.controller;
 
 import java.security.Principal;
 import java.util.List;
@@ -12,16 +12,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gr.hua.it21840.dao.AuthoritiesDAO;
-import gr.hua.it21840.dao.ChildDAO;
-import gr.hua.it21840.dao.TeacherDAO;
-import gr.hua.it21840.dao.UserDAO;
-import gr.hua.it21840.dao.UserInformationDAO;
-import gr.hua.it21840.entity.Authorities;
-import gr.hua.it21840.entity.Child;
-import gr.hua.it21840.entity.Teacher;
-import gr.hua.it21840.entity.User;
-import gr.hua.it21840.entity.UserInformation;
+import gr.hua.it21840.it21848.it21666.dao.AuthoritiesDAO;
+import gr.hua.it21840.it21848.it21666.dao.ChildDAO;
+import gr.hua.it21840.it21848.it21666.dao.TeacherDAO;
+import gr.hua.it21840.it21848.it21666.dao.UserDAO;
+import gr.hua.it21840.it21848.it21666.dao.UserInformationDAO;
+import gr.hua.it21840.it21848.it21666.entity.Authorities;
+import gr.hua.it21840.it21848.it21666.entity.Child;
+import gr.hua.it21840.it21848.it21666.entity.Teacher;
+import gr.hua.it21840.it21848.it21666.entity.User;
+import gr.hua.it21840.it21848.it21666.entity.UserInformation;
 
 
 

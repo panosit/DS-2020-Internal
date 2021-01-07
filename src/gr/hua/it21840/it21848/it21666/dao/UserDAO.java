@@ -1,6 +1,6 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 
-import gr.hua.it21840.entity.User;
+import gr.hua.it21840.it21848.it21666.entity.User;
 
 public interface UserDAO{
 	void insertUser(User user);

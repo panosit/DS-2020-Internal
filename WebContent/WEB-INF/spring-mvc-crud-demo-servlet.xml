@@ -16,7 +16,7 @@
 
 <context:property-placeholder location="classpath:jdbc.properties" />
         <!-- Add support for component scanning -->
-        <context:component-scan base-package="gr.hua.it21840" />
+        <context:component-scan base-package="gr.hua.it21840.it21848.it21666" />
 
         <!-- Add support for conversion, formatting and validation support -->
         <mvc:annotation-driven/>
@@ -48,7 +48,7 @@
         <bean id="sessionFactory"
                 class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
                 <property name="dataSource" ref="myDataSource" />
-                <property name="packagesToScan" value="gr.hua.it21840.entity" />
+                <property name="packagesToScan" value="gr.hua.it21840.it21848.it21666.entity" />
                 <property name="hibernateProperties">
                    <props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>

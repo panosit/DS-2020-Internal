@@ -1,11 +1,11 @@
-package gr.hua.it21840.controller;
+package gr.hua.it21840.it21848.it21666.controller;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.security.access.annotation.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 
-import gr.hua.it21840.dao.ChildDAO;
-import gr.hua.it21840.entity.Child;
+import gr.hua.it21840.it21848.it21666.dao.ChildDAO;
+import gr.hua.it21840.it21848.it21666.entity.Child;
 
 import javax.servlet.http.*;
 

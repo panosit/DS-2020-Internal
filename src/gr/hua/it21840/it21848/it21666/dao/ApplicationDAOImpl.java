@@ -1,10 +1,10 @@
-package gr.hua.it21840.dao;
+package gr.hua.it21840.it21848.it21666.dao;
 import org.hibernate.*;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 
-import gr.hua.it21840.entity.Application;
+import gr.hua.it21840.it21848.it21666.entity.Application;
 
 import javax.transaction.*;
 import java.util.*;
