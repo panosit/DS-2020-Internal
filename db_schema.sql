@@ -45,6 +45,17 @@ CREATE TABLE `child` (
   CONSTRAINT `child_ibfk_1` FOREIGN KEY (`classroom`) REFERENCES `teacher` (`class`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE `application` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `parent_first_name` varchar(30) NOT NULL,
+  `parent_last_name` varchar(30) NOT NULL,
+  `income` int NOT NULL,
+  `child_first_name` varchar(30) NOT NULL,
+  `child_last_name` varchar(30) NOT NULL,
+  `age` int NOT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
 INSERT INTO `user` (`username`, `password`, `enabled`) VALUES
     ('admin', '$2a$04$DR/f..s1siWJc8Xg3eJgpeB28a4V6kYpnkMPeOuq4rLQ42mJUYFGC', 1);
