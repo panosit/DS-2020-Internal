@@ -9,6 +9,9 @@ public class Application{
     @Column(name="id")
     private int id;
 
+    @Column(name="username")
+    private String username;
+
     @Column(name="parent_first_name")
     private String parent_first_name;
 
@@ -28,8 +31,9 @@ public class Application{
     private int age;
 
     public Application(){}
-        public Application(String parent_first_name,String parent_last_name,int income,
+    public Application(String username,String parent_first_name,String parent_last_name,int income,
                        String child_first_name,String child_last_name,int age){
+        this.username=username;
         this.parent_first_name=parent_first_name;
         this.parent_last_name=parent_last_name;
         this.income=income;
@@ -79,15 +83,21 @@ public class Application{
     public void setAge(int age){
         this.age=age;
     }
+    public String getUsername(){
+        return username;
+    }
+    public void setUsername(String username){
+        this.username=username;
+    }
     @Override
     public String toString(){
-        return "Application{"+
-                "id="+id+
+        return "Application{"+"id="+id+
+                ", username='"+username+'\''+
                 ", parent_first_name='"+parent_first_name+'\''+
-                ", parent_last_name='" + parent_last_name+'\''+
+                ", parent_last_name='"+parent_last_name+'\''+
                 ", income="+income+
                 ", child_first_name='"+child_first_name+'\''+
-                ", child_last_name='"+child_last_name+ '\''+
+                ", child_last_name='"+child_last_name+'\''+
                 ", age="+age+'}';
     }
 }
